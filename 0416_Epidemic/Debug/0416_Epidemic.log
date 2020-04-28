@@ -1,0 +1,87 @@
+﻿生成启动时间为 2020/4/27 22:56:27。
+     1>项目“C:\Users\dell\Desktop\0416_Epidemic\0416_Epidemic\0416_Epidemic.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../Include /I"C:\Program Files (x86)\GnuWin32\include" /I"C:\OpenSSL-Win32\include" /I../MySQL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cpsider_BitMap_GetOffest.cpp Cspider_Analytical_Html.cpp Cspider_Analytic_Url.cpp Cspider_BitMap_Destroy.cpp Cspider_BitMap_Init.cpp Cspider_BitMap_Set.cpp Cspider_BitMap_Test.cpp Cspider_BloomFilter_Destroy.cpp Cspider_BloomFilter_Init.cpp Cspider_BloomFilter_Insert.cpp Cspider_BloomFilter_Test.cpp Cspider_Connect_Webserver.cpp Cspider_Create_Openssl.cpp Cspider_Create_Requesthead.cpp Cspider_Download.cpp Cspider_Get_Statuscode.cpp Cspider_Mysql_Connect.cpp Cspider_Mysql_Update.cpp Cspider_File_mmap.cpp Cspider_Queue_Add.cpp Cspider_Queue_Create.cpp Cspider_Queue_Del.cpp Cspider_Socket_Create.cpp main.cpp
+         main.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\main.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+         Cspider_Socket_Create.cpp
+         Cspider_Queue_Del.cpp
+         Cspider_Queue_Create.cpp
+         Cspider_Queue_Add.cpp
+         Cspider_File_mmap.cpp
+         Cspider_Mysql_Update.cpp
+         Cspider_Mysql_Connect.cpp
+         Cspider_Get_Statuscode.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_get_statuscode.cpp(14): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_get_statuscode.cpp(15): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : 参见“sscanf”的声明
+         Cspider_Download.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_download.cpp(27): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_download.cpp(78): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         Cspider_Create_Requesthead.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_create_requesthead.cpp(10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         Cspider_Create_Openssl.cpp
+         Cspider_Connect_Webserver.cpp
+         Cspider_BloomFilter_Test.cpp
+         Cspider_BloomFilter_Insert.cpp
+         Cspider_BloomFilter_Init.cpp
+         Cspider_BloomFilter_Destroy.cpp
+         Cspider_BitMap_Test.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_bitmap_test.cpp(20): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+         Cspider_BitMap_Set.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_bitmap_set.cpp(22): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+         Cspider_BitMap_Init.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_bitmap_init.cpp(20): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_bitmap_init.cpp(22): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         Cspider_BitMap_Destroy.cpp
+         Cspider_Analytic_Url.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_analytic_url.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
+         Cspider_Analytical_Html.cpp
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_analytical_html.cpp(112): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_analytical_html.cpp(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_analytical_html.cpp(132): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>c:\users\dell\desktop\0416_epidemic\0416_epidemic\cspider_analytical_html.cpp(139): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         Cpsider_BitMap_GetOffest.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dell\Desktop\0416_Epidemic\Debug\0416_Epidemic.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\GnuWin32\lib" /LIBPATH:"C:\OpenSSL-Win32\lib" regex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libssl.lib libcrypto.lib libmysql.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dell\Desktop\0416_Epidemic\Debug\0416_Epidemic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dell\Desktop\0416_Epidemic\Debug\0416_Epidemic.lib" /MACHINE:X86 Debug\Cpsider_BitMap_GetOffest.obj
+         Debug\Cspider_Analytical_Html.obj
+         Debug\Cspider_Analytic_Url.obj
+         Debug\Cspider_BitMap_Destroy.obj
+         Debug\Cspider_BitMap_Init.obj
+         Debug\Cspider_BitMap_Set.obj
+         Debug\Cspider_BitMap_Test.obj
+         Debug\Cspider_BloomFilter_Destroy.obj
+         Debug\Cspider_BloomFilter_Init.obj
+         Debug\Cspider_BloomFilter_Insert.obj
+         Debug\Cspider_BloomFilter_Test.obj
+         Debug\Cspider_Connect_Webserver.obj
+         Debug\Cspider_Create_Openssl.obj
+         Debug\Cspider_Create_Requesthead.obj
+         Debug\Cspider_Download.obj
+         Debug\Cspider_Get_Statuscode.obj
+         Debug\Cspider_Mysql_Connect.obj
+         Debug\Cspider_Mysql_Update.obj
+         Debug\Cspider_File_mmap.obj
+         Debug\Cspider_Queue_Add.obj
+         Debug\Cspider_Queue_Create.obj
+         Debug\Cspider_Queue_Del.obj
+         Debug\Cspider_Socket_Create.obj
+         Debug\main.obj
+         0416_Epidemic.vcxproj -> C:\Users\dell\Desktop\0416_Epidemic\Debug\0416_Epidemic.exe
+     1>已完成生成项目“C:\Users\dell\Desktop\0416_Epidemic\0416_Epidemic\0416_Epidemic.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:54.79

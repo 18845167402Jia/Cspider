@@ -1,0 +1,44 @@
+﻿生成启动时间为 2020/4/19 10:51:43。
+     1>项目“C:\Users\dell\Desktop\0416_Epidemic\0416_Epidemic\0416_Epidemic.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dell\Desktop\0416_Epidemic\x64\Debug\0416_Epidemic.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\GnuWin32\lib" /LIBPATH:"C:\OpenSSL-Win32\lib" regex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libssl.lib libcrypto.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dell\Desktop\0416_Epidemic\x64\Debug\0416_Epidemic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dell\Desktop\0416_Epidemic\x64\Debug\0416_Epidemic.lib" /MACHINE:X64 x64\Debug\Cpsider_BitMap_GetOffest.obj
+         x64\Debug\Cspider_Analytical_Html.obj
+         x64\Debug\Cspider_Analytic_Url.obj
+         x64\Debug\Cspider_BitMap_Destroy.obj
+         x64\Debug\Cspider_BitMap_Init.obj
+         x64\Debug\Cspider_BitMap_Set.obj
+         x64\Debug\Cspider_BitMap_Test.obj
+         x64\Debug\Cspider_BloomFilter_Destroy.obj
+         x64\Debug\Cspider_BloomFilter_Init.obj
+         x64\Debug\Cspider_BloomFilter_Insert.obj
+         x64\Debug\Cspider_BloomFilter_Test.obj
+         x64\Debug\Cspider_Connect_Webserver.obj
+         x64\Debug\Cspider_Create_Openssl.obj
+         x64\Debug\Cspider_Create_Requesthead.obj
+         x64\Debug\Cspider_Download.obj
+         x64\Debug\Cspider_Get_Statuscode.obj
+         x64\Debug\Cspider_Mysql_Connect.obj
+         x64\Debug\Cspider_Mysql_Update.obj
+         x64\Debug\Cspider_Readfile_String.obj
+         x64\Debug\Cspider_Socket_Create.obj
+         x64\Debug\main.obj
+     1>Cspider_Analytical_Html.obj : error LNK2019: 无法解析的外部符号 __imp_regcomp，该符号在函数 "int __cdecl Cspider_Analytic_Html(struct url_t *)" (?Cspider_Analytic_Html@@YAHPEAUurl_t@@@Z) 中被引用
+     1>Cspider_Get_Statuscode.obj : error LNK2001: 无法解析的外部符号 __imp_regcomp
+     1>Cspider_Analytical_Html.obj : error LNK2019: 无法解析的外部符号 __imp_regexec，该符号在函数 "int __cdecl Cspider_Analytic_Html(struct url_t *)" (?Cspider_Analytic_Html@@YAHPEAUurl_t@@@Z) 中被引用
+     1>Cspider_Get_Statuscode.obj : error LNK2001: 无法解析的外部符号 __imp_regexec
+     1>Cspider_Analytical_Html.obj : error LNK2019: 无法解析的外部符号 __imp_regfree，该符号在函数 "int __cdecl Cspider_Analytic_Html(struct url_t *)" (?Cspider_Analytic_Html@@YAHPEAUurl_t@@@Z) 中被引用
+     1>Cspider_Get_Statuscode.obj : error LNK2001: 无法解析的外部符号 __imp_regfree
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 SSL_CTX_new，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 SSL_set_fd，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 SSL_new，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 SSL_connect，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 TLS_method，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Create_Openssl.obj : error LNK2019: 无法解析的外部符号 OPENSSL_init_ssl，该符号在函数 "struct ssl_t * __cdecl Cspider_Create_Openssl(int)" (?Cspider_Create_Openssl@@YAPEAUssl_t@@H@Z) 中被引用
+     1>Cspider_Download.obj : error LNK2019: 无法解析的外部符号 SSL_read，该符号在函数 "int __cdecl Cspider_Download(struct url_t *,char const *,int,struct ssl_t *)" (?Cspider_Download@@YAHPEAUurl_t@@PEBDHPEAUssl_t@@@Z) 中被引用
+     1>Cspider_Download.obj : error LNK2019: 无法解析的外部符号 SSL_write，该符号在函数 "int __cdecl Cspider_Download(struct url_t *,char const *,int,struct ssl_t *)" (?Cspider_Download@@YAHPEAUurl_t@@PEBDHPEAUssl_t@@@Z) 中被引用
+     1>C:\Users\dell\Desktop\0416_Epidemic\x64\Debug\0416_Epidemic.exe : fatal error LNK1120: 11 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\dell\Desktop\0416_Epidemic\0416_Epidemic\0416_Epidemic.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.70
